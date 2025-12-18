@@ -58,7 +58,7 @@ graph TD
     A --> H["scripts 实用脚本"];
     A --> I["openhands-ui 组件库"];
     A --> J["openhands-cli 命令行工具"];
-    A --> K["microagents 微代理配置"];
+    A --> K["skills 技能配置"];
 
     B --> B1["agenthub 代理中心"];
     B --> B2["controller 控制器"];
@@ -172,7 +172,7 @@ graph TD
     click H "./scripts/CLAUDE.md" "查看实用脚本文档"
     click I "./openhands-ui/CLAUDE.md" "查看组件库文档"
     click J "./openhands-cli/CLAUDE.md" "查看命令行工具文档"
-    click K "./microagents/CLAUDE.md" "查看微代理配置文档"
+    click K "./skills/CLAUDE.md" "查看技能配置文档"
 
     click B1 "./openhands/agenthub/CLAUDE.md" "查看代理中心文档"
     click B2 "./openhands/controller/CLAUDE.md" "查看控制器文档"
@@ -207,7 +207,7 @@ graph TD
 | scripts | 实用脚本 | Python | 工具 | 440行 | ✅ 已文档化 |
 | openhands-ui | 组件库 | TypeScript | UI组件 | 223行 | ✅ 已文档化 |
 | openhands-cli | 命令行工具 | Python | 工具 | 198行 | ✅ 已文档化 |
-| microagents | 微代理配置 | Markdown | 配置 | 202行 | ✅ 已文档化 |
+| skills | 技能配置 | Markdown | 配置 | 5209行 | ✅ 已文档化 |
 
 ## 运行与开发
 
